@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Speaker body -->
+  <rect x="40" y="35" width="48" height="58" rx="8" fill="url(#grad1)" stroke="#2C5AA0" stroke-width="2"/>
+  
+  <!-- Speaker cone -->
+  <ellipse cx="64" cy="70" rx="20" ry="15" fill="#1E3A5F"/>
+  
+  <!-- Speaker grille -->
+  <rect x="50" y="45" width="28" height="3" fill="#666"/>
+  <rect x="50" y="50" width="28" height="3" fill="#666"/>
+  <rect x="50" y="55" width="28" height="3" fill="#666"/>
+  
+  <!-- Sound waves -->
+  <path d="M20 50 Q25 45 30 50 Q25 55 20 50" fill="none" stroke="#4A90E2" stroke-width="3"/>
+  <path d="M15 50 Q22 40 30 50 Q22 60 15 50" fill="none" stroke="#4A90E2" stroke-width="2"/>
+  <path d="M10 50 Q20 35 30 50 Q20 65 10 50" fill="none" stroke="#4A90E2" stroke-width="1"/>
+  
+  <!-- Text lines representing subtitles -->
+  <rect x="90" y="40" width="25" height="3" fill="#FFF" opacity="0.8"/>
+  <rect x="90" y="48" width="20" height="3" fill="#FFF" opacity="0.8"/>
+  <rect x="90" y="56" width="22" height="3" fill="#FFF" opacity="0.8"/>
+</svg>

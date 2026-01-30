@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Spoken Subtitles",
+  "version": "1.7",
+  "description": "Reads text-based subtitles aloud on streaming sites. Includes OCR fallback for canvas captions. May not work on sites with image-based or non-standard subtitles.",
+  "icons": {
+    "16": "icons/icon.svg",
+    "32": "icons/icon.svg",
+    "48": "icons/icon.svg",
+    "128": "icons/icon.svg"
+  },
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["content_netflix.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://*.hulu.com/*"],
+      "js": ["content_hulu.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "*://*.primevideo.com/*",
+        "*://*.amazon.com/gp/video/*",
+        "*://*.amazon.com/gp/video/detail/*",
+        "*://*.amazon.com/*/detail/*"
+      ],
+      "js": ["content_prime.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    },
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content_youtube.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["libs/tesseract.min.js", "content_universal.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
