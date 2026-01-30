@@ -6,24 +6,23 @@
 **Short Description:** Reads subtitles aloud on streaming websites for better accessibility
 **Detailed Description:**
 
-Spoken Subtitles is a Chrome extension that converts text subtitles into spoken audio, making streaming content more accessible for everyone.
+Spoken Subtitles converts text subtitles into spoken audio, making streaming content accessible to users who prefer listening over reading. The extension works seamlessly with major streaming platforms to provide audio narration of subtitle text.
 
 **Key Features:**
-- Universal compatibility with Netflix, Hulu, Prime Video, YouTube, and more
-- Customizable voice selection and speech rate
-- OCR fallback for canvas-based captions
-- Clean, user-friendly interface
-- No data collection - everything processes locally
+- Automatic text-to-speech conversion of subtitles
+- Support for Netflix, Hulu, Prime Video, YouTube, and other streaming sites
+- Customizable voice and speech rate settings
+- Simple, accessible interface
 
 **Perfect for:**
 - Users with visual impairments
-- Language learners
+- People who learn better through audio
 - Multitasking viewers
-- Anyone who prefers audio over reading
+- Anyone who benefits from audio accessibility
 
-**Privacy:** This extension only processes subtitle text locally in your browser. No data is collected, stored, or transmitted.
+**How it works:** The extension detects subtitle text on streaming websites and uses your browser's built-in speech synthesis to read them aloud in real-time.
 
-**Open Source:** View the code and contribute at https://github.com/noly24/spoken-subtitles
+**Privacy:** All processing happens locally in your browser. No data is collected or transmitted.
 
 ## Category
 - Accessibility
