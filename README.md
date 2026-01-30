@@ -81,6 +81,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Support
 
 If you encounter issues or have suggestions:
-- Check the [Issues](https://github.com/YOUR_USERNAME/spoken-subtitles/issues) page
+- Check the [Issues](https://github.com/noly24/spoken-subtitles/issues) page
 - Test on multiple sites to isolate problems
 - Include browser version and site details in bug reports
