@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Spoken Subtitles",
   "version": "1.7",
-  "description": "Reads text-based subtitles aloud on streaming sites. Includes OCR fallback for canvas captions. May not work on sites with image-based or non-standard subtitles.",
+  "description": "Reads subtitles aloud on streaming sites with OCR fallback for canvas captions.",
   "icons": {
     "16": "icons/icon.svg",
     "32": "icons/icon.svg",
